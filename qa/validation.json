@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "pet_id": "baize-aheng",
+  "sprite_version_number": 2,
+  "format": "WEBP",
+  "mode": "RGBA",
+  "columns": 8,
+  "rows": 11,
+  "width": 1536,
+  "height": 2288,
+  "transparent_rgb_residue_pixels": 0,
+  "spritesheet_sha256": "2a0a25eb8131b25de9c34f0ecd06225ae81eabfede40198ba056174d7a977a5d",
+  "hover_response": {
+    "semantic_read": "耳朵回应并停顿，然后抬爪招呼，最后回到坐姿",
+    "frame_count": 5,
+    "frame_height_px": 198,
+    "height_spread_px": 0,
+    "independent_visual_qa": "pass"
+  },
+  "running_scale_continuity": "pass",
+  "warnings": [],
+  "errors": []
+}
