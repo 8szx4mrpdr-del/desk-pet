@@ -1,7 +1,7 @@
 {
   "ok": true,
   "pet_id": "a-heng",
-  "package_version": "0.1.2",
+  "package_version": "0.1.3",
   "sprite_version_number": 2,
   "format": "WEBP",
   "mode": "RGBA",
@@ -10,12 +10,41 @@
   "width": 1536,
   "height": 2288,
   "transparent_rgb_residue_pixels": 0,
-  "spritesheet_sha256": "6de2f81b5836d51b65089814b59355006132d86e9355b1e9b3cf8f5e83052f56",
+  "spritesheet_sha256": "7d2c578123843405aa19a5f268dbb66c8dfea81ad8edadadfbe53b634cef4013",
   "identity": {
     "tail_count": 9,
     "tail_tips": "black-to-charcoal gradients with sparse dark-gold motifs",
     "forehead_core": "complete black nine-sided core with centered gold star",
     "independent_visual_qa": "pass"
+  },
+  "directional_running": {
+    "restored_rows": [
+      "running-right",
+      "running-left"
+    ],
+    "frame_count_each": 8,
+    "semantic_read": "侧身前倾、四肢交替舒展并产生明确水平推进感",
+    "natural_tail_occlusion_in_side_view": "user-accepted",
+    "direction_and_cadence_review": "pass",
+    "clipping_or_size_pop": 0,
+    "independent_visual_qa": "pass"
+  },
+  "repair_scope": {
+    "changed_rows": [
+      1,
+      2
+    ],
+    "pixel_identical_rows_from_v0.1.2": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
   },
   "hover_response": {
     "runtime_trigger": "pointer-enter",
