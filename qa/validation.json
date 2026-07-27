@@ -9,7 +9,7 @@
   "width": 1536,
   "height": 2288,
   "transparent_rgb_residue_pixels": 0,
-  "spritesheet_sha256": "2a0a25eb8131b25de9c34f0ecd06225ae81eabfede40198ba056174d7a977a5d",
+  "spritesheet_sha256": "9c79ab7466e137010fb9b5fa751f0735aa6083dadf4bdb6698441a185631c829",
   "hover_response": {
     "semantic_read": "耳朵回应并停顿，然后抬爪招呼，最后回到坐姿",
     "frame_count": 5,
@@ -17,7 +17,16 @@
     "height_spread_px": 0,
     "independent_visual_qa": "pass"
   },
-  "running_scale_continuity": "pass",
+  "running_scale_continuity": {
+    "status": "pass",
+    "old_height_ratio_to_idle": 0.6313,
+    "new_height_ratio_to_idle": 0.9672,
+    "old_area_ratio_to_idle": 0.4376,
+    "new_area_ratio_to_idle": 0.9322,
+    "running_center_y_span_px": 0.5,
+    "tail_read": "蓬松上扬，与躯干保留清楚空气感",
+    "independent_visual_qa": "pass"
+  },
   "warnings": [],
   "errors": []
 }
