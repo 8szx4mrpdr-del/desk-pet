@@ -1,23 +1,40 @@
 {
   "ok": true,
-  "pet_id": "baize-aheng",
-  "sprite_version_number": 2,
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
   "rows": 11,
+  "sprite_version_number": 2,
   "width": 1536,
   "height": 2288,
   "transparent_rgb_residue_pixels": 0,
-  "spritesheet_sha256": "2a0a25eb8131b25de9c34f0ecd06225ae81eabfede40198ba056174d7a977a5d",
+  "errors": [],
+  "warnings": [],
+  "pet_id": "baize-aheng",
+  "spritesheet_sha256": "0236ce451da3f673a66a73d2e18c757effb3df1c109eba76aa24e7160b36add8",
   "hover_response": {
-    "semantic_read": "耳朵回应并停顿，然后抬爪招呼，最后回到坐姿",
+    "semantic_read": "保持坐姿，短暂停住后耳尖轻动，首尾回到同一张待机坐姿",
     "frame_count": 5,
     "frame_height_px": 198,
     "height_spread_px": 0,
-    "independent_visual_qa": "pass"
+    "idle_hover_start_pixel_delta": 0,
+    "hover_end_idle_pixel_delta": 0,
+    "first_subtle_motion_after_ms": 280,
+    "rapid_state_switch_simulation": "pass",
+    "desktop_corner_retest": "not_recorded"
   },
-  "running_scale_continuity": "pass",
-  "warnings": [],
-  "errors": []
+  "running_scale_continuity": {
+    "median_height_ratio_to_idle": 0.9646,
+    "median_area_ratio_to_idle": 0.9099,
+    "frames_per_direction": 8,
+    "left_mirrors_right_per_frame": true,
+    "tail_read": "收腿时祥云尾尖稍晚回摆，尾身留白清楚"
+  },
+  "crouch_and_gaze": {
+    "crouch_frames": 8,
+    "gaze_directions": 16,
+    "independent_visual_review": "pass",
+    "blind_direction_review": "pass",
+    "cells_match_reviewed_release": true
+  }
 }
